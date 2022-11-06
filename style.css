@@ -1,0 +1,171 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-color: #A60303;
+}
+
+header{
+    width: 100%;
+    text-align: center;
+    background-color:  #0D0D0D;
+    color: white;
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+main{
+    width: 1000px;
+    margin: auto;
+    height: auto;
+}
+
+#container{
+    background-color: #D90404;
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    align-items: center;
+    width: 800px;
+    height: 300px;
+    margin: 50px auto auto auto;
+    border-radius: 30px;
+    border: solid 1px black;
+    box-shadow: 10px 10px 5px black;
+}
+
+.filhos{
+    background-color: white;
+    width: 280px;
+    height: 120px;
+    border-radius: 25px;
+    margin: 20px;
+    
+    
+}
+
+#nameBrl{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+    border-bottom: solid 1px black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img{
+    width: 40px;
+    height: 40px;
+
+}
+
+#entrada{
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    width: 250px;
+    height: 40px;
+    border: none;
+    text-align: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: green; 
+    
+}
+
+
+#seletor{
+    width: 250px;
+    height: 40px;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    border: none;
+    text-align: justify;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.btn{
+    width: 60px;
+    height: 120px;
+    display: block;
+    margin: 10px auto 10px auto;
+    border-radius: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #400101;
+    color: white;
+    border: none;
+}
+
+.btn:hover{
+    transition-duration: 2s;
+    background-color: #A60303;
+}
+
+#res{
+    margin: auto;
+    margin-top: 10px;
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: red;
+}
+
+footer{
+    background-color: #0D0D0D;
+    color: white;
+    bottom: 0;
+    position: fixed;
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    color: #D90404;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+@media(max-width: 1000px){
+    main{
+        width: 700px;
+    }
+
+    #container{
+        width: 700px;
+    }
+}
+
+@media(max-width: 730px){
+    main{
+        width: 350px;
+        height: auto;
+    }
+
+    #container{
+        width: 320px;
+        height: auto;
+        display: block;
+        margin-bottom: 30px;
+    }
+    .btn{
+        width: 280px;
+        height: 40px;
+        border: none;
+    }
+    footer{
+        position: relative;
+    }
+}

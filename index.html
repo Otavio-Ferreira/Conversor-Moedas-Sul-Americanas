@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Câmbio Sul-Americano (Convertidor Sudamericano)</h1>
+    </header>
+    <main>
+        <div id="container">
+            <div class="filhos" id="filho1">
+                <div id="nameBrl" style="height: 50px;">
+                    <img src="imagens/brl.png" alt="imagem do Brasil">
+                    <h3>BRL Real Brasileiro(R$)</h3>
+                </div>
+                <div style="height: 50px;">
+                    <input type="number" id="entrada" min="0,1">
+                </div>
+            </div>
+            <div>
+                <input type="button" value="&rArr;" onclick="useApi()" class="btn">
+            </div>
+            <div id="options" class="filhos">
+                <div style="height: 40px;  border-bottom: solid 1px black;">
+                    <select id="seletor">
+                        <option class="choose" selected>Selecione a Moeda</option>
+                        <option value="1" class="choose" onmouseenter="ver()">Peso Argentino (Argentina)</option>
+                        <option value="2" class="choose">Boliviano (Bolívia)</option>
+                        <option value="3" class="choose">Peso Chileno (Chile)</option>
+                        <option value="4" class="choose">Peso Colombiano (Côlombia)</option>
+                        <option value="5" class="choose">Dólar Estadunidense (Equador)</option>
+                        <option value="6" class="choose">Guaraní (Paraguai)</option>
+                        <option value="7" class="choose">Nuevpo Sol (Peru)</option>
+                        <option value="8" class="choose">Peso Uruguaio (Uruguai)</option>
+                        <option value="9" class="choose">Bolívar Soberano (Venezula)</option>
+                    </select>
+                </div>
+
+                <div  id="res">
+        
+                </div>
+            </div>
+        
+        </div>
+    </main>
+    <footer>
+        <p>Made by <a href="https://otavio-ferreira.github.io/Curriculo-Virtual/" target="_blank">Otavio Ferreira</a> <i>Todos os Direitos Reservados:</i> <a href="mailto:otavioferreira4343@gmail.com">Email</a></p>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>
